@@ -1,6 +1,7 @@
 :root{
     --myBlue: #123698;
     --myAltBlue: #125098;
+    --hoverLink: #6d8eb4;
 }
 
 .navBar{
@@ -10,13 +11,13 @@
 }
 .navbar a{
     border: white;
-    color: white;
     background-color: var(--myAltBlue);
     padding: 5px 7px;
     text-align: center;
     display: inline-block;
     font-size: 24px;
     margin: 4px 4px;
+    border-style: groove;
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -30,7 +31,6 @@
 }
 .footer a{
     border: white;
-    color: white;
     background-color: var(--myAltBlue);
     padding: 2px 3px;
     text-align: center;
@@ -43,13 +43,22 @@
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
 }
+a:link{
+    color: white;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: var(--hoverLink)
+}
 img {
     max-width: 100%;
     height: auto;
     display: block;
 
     #frown{
-        max-width: 10%;
+        max-width: 20px;
         height: auto;
         display: block;
         float: left;
@@ -57,6 +66,7 @@ img {
 }
 hr{
     color: var(--myBlue);
+    background-color: var(--myBlue);
 }
 h2{
     text-align: left;

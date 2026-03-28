@@ -1,7 +1,7 @@
 :root{
     --myBlue: #123698;
     --myAltBlue: #125098;
-    --hoverLink: #6d8eb4;
+    --hoverLink: #9ccaff;
 }
 
 .navBar{
@@ -47,7 +47,7 @@ a:link{
     color: white;
 }
 a:visited{
-    color: gray;
+    color: rgb(204, 204, 204);
 }
 a:hover{
     color: var(--hoverLink)

@@ -17,6 +17,11 @@
     display: inline-block;
     font-size: 24px;
     margin: 4px 4px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 .footer{
     color: white;
@@ -32,11 +37,23 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 4px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 img {
     max-width: 100%;
     height: auto;
     display: block;
+
+    #frown{
+        max-width: 10%;
+        height: auto;
+        display: block;
+        float: left;
+    }
 }
 hr{
     color: var(--myBlue);

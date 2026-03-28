@@ -1,18 +1,33 @@
 :root{
     --myBlue: #123698;
+    --myAltBlue: #125098;
 }
 
 .navBar{
     color: white;
     background-color: var(--myBlue);
-    padding: 3em;
-    float: left;
+    padding: 3px;
 }
 .navbar a{
     border: white;
     color: white;
+    background-color: var(--myAltBlue);
+    padding: 5px 7px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 4px;
+}
+.footer{
+    color: white;
     background-color: var(--myBlue);
-    padding: 10px 15px;
+    padding: 3px;
+}
+.footer a{
+    border: white;
+    color: white;
+    background-color: var(--myAltBlue);
+    padding: 2px 3px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -23,10 +38,10 @@ hr{
 }
 h2{
     text-align: left;
-    font-size: 16px;
+    font-size: 20px;
 }
 h4{
     text-align: left;
-    font-size: 14px;
+    font-size: 18px;
 }
 

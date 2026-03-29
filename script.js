@@ -21,6 +21,8 @@ workBtn.addEventListener("click", function(){
     if (workExp.style.display === "none") {
         workExp.style.display = "block";
         workBtn.textContent = "Hide";
+        techExp.style.display = "block";
+        techBtn.textContent = "Hide";
     }
     else {
         workExp.style.display = "none";

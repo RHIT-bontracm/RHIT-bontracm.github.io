@@ -1,10 +1,10 @@
-let techBtn = document.getElementById("techButton");
-let workBtn = document.getElementById("workButton");
-let eduBtn = document.getElementById("educationButton");
+const techBtn = document.getElementById("techButton");
+const workBtn = document.getElementById("workButton");
+const eduBtn = document.getElementById("educationButton");
 
-let techExp = document.getElementById("techExperience");
-let workExp = document.getElementById("workExperience");
-let eduExp = document.getElementById("educationExperience");
+const techExp = document.getElementById("techExperience");
+const workExp = document.getElementById("workExperience");
+const eduExp = document.getElementById("educationExperience");
 
 techBtn.addEventListener("click", function(){
     // if (techExp.style.display == "none") {

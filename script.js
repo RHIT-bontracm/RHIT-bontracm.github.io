@@ -1,9 +1,40 @@
-function toggleExperience(sectionId){
-    let section = document.getElementById(sectionId);
-    if (section.style.display === "none"){
-        section.style.display = "block";
+let techBtn = document.getElementById("techButton");
+let workBtn = document.getElementById("workButton");
+let eduBtn = document.getElementById("educationButton");
+
+let techExp = document.getElementById("techExperience");
+let workExp = document.getElementById("workExperience");
+let eduExp = document.getElementById("educationExperience");
+
+techBtn.addEventListener("click", function(){
+    if (techExp.style.display === "none") {
+        techExp.style.display = "block";
+        techBtn.textContent = "Hide";
     }
-    else{
-        section.style.diplays = "none";
+    else {
+        techExp.style.display = "none";
+        techBtn.textContent = "Show";
     }
-}
+});
+
+workBtn.addEventListener("click", function(){
+    if (workExp.style.display === "none") {
+        workExp.style.display = "block";
+        workBtn.textContent = "Hide";
+    }
+    else {
+        workExp.style.display = "none";
+        workBtn.textContent = "Show";
+    }
+});
+
+eduBtn.addEventListener("click", function(){
+    if (eduExp.style.display === "none") {
+        eduExp.style.display = "block";
+        eduBtn.textContent = "Hide";
+    }
+    else {
+        eduExp.style.display = "none";
+        eduBtn.textContent = "Show";
+    }
+});

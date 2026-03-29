@@ -7,7 +7,7 @@ let workExp = document.getElementById("workExperience");
 let eduExp = document.getElementById("educationExperience");
 
 techBtn.addEventListener("click", function(){
-    if (techExp.style.display === "none") {
+    if (techExp.style.display == "none") {
         techExp.style.display = "block";
         techBtn.textContent = "Hide";
     }

@@ -7,15 +7,14 @@ const workExp = document.getElementById("workExperience");
 const eduExp = document.getElementById("educationExperience");
 
 techBtn.addEventListener("click", function(){
-    // if (techExp.style.display == "none") {
-    //     techExp.style.display = "block";
-    //     techBtn.textContent = "Hide";
-    // }
-    // else {
-    //     techExp.style.display = "none";
-    //     techBtn.textContent = "Show";
-    // }
-    techExp.classList.toggle("hidden");
+    if (techExp.style.display === "none") {
+        techExp.style.display = "block";
+        techBtn.textContent = "Hide";
+    }
+    else {
+        techExp.style.display = "none";
+        techBtn.textContent = "Show";
+    }
 });
 
 workBtn.addEventListener("click", function(){
